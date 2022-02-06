@@ -1,0 +1,87 @@
+body{
+    font-family: 'Abril Fatface', cursive;
+    color: #CBD0CF;
+}
+
+.bg{
+    background-color: #222427;
+    height: 100vh;
+    text-align: center;
+    z-index: -5;
+
+}
+
+
+.bg {
+    background: linear-gradient(307deg, #221b26, #5c524f, #2b2f3b, #2e3a38);
+    background-size: 800% 800%;
+
+    -webkit-animation: AnimationName 28s ease infinite;
+    -moz-animation: AnimationName 28s ease infinite;
+    -o-animation: AnimationName 28s ease infinite;
+    animation: AnimationName 28s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:32% 0%}
+    50%{background-position:69% 100%}
+    100%{background-position:32% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:32% 0%}
+    50%{background-position:69% 100%}
+    100%{background-position:32% 0%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:32% 0%}
+    50%{background-position:69% 100%}
+    100%{background-position:32% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:32% 0%}
+    50%{background-position:69% 100%}
+    100%{background-position:32% 0%}
+}
+
+.title {
+    margin-top: 10vh;
+    font-size: 6vh;
+    line-height: 1;
+    text-align: left;
+    display: inline-block;
+    margin-left: -30vw;
+    opacity: 0;
+    margin-top: -50px;
+    
+}
+
+
+span{
+    font-size: 15vh;
+    z-index: 2;
+    opacity: 0;
+    margin-top: -50px;
+}
+
+.row2{
+    height: 40vh;
+}
+
+.row1, .row3{
+
+    height: 30vh;
+}
+
+.one_Photo{
+    position: absolute ;
+    display: inline-block;
+    height: 50vh;
+    z-index: -1;
+    margin-left: -20vw;
+    border-radius: 50px;
+    opacity: 0;
+    margin-top: 0px;
+    
+    
+
+}
