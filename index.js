@@ -14,7 +14,7 @@ $("h1").animate({
 
   $(".one_Photo").animate({
     
-    opacity: '1',
+    opacity: '10',
     marginTop: '-50px',
 
   },3000,);
